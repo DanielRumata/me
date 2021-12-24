@@ -32,3 +32,21 @@ nav {
 .carousel {
   max-width: 1140px;
 }
+
+.navbar-expand-sm {
+  align-content: center;
+  text-align: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updates {
+  color: #fff;
+  margin: 3rem auto 0 auto;
+  max-width: 1140px;
+  padding-left: 3rem;
+}
