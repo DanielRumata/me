@@ -24,6 +24,10 @@ nav {
   margin-bottom: 0;
 }
 
+img {
+  max-width: 1140px;
+}
+
 .slider {
   display: flex;
   justify-content: center;
@@ -45,8 +49,41 @@ nav {
 }
 
 .updates {
-  color: #ffffff;
-  margin: 3rem auto 0 auto;
+  color: #fff;
+  background-color: #000!important;
+}
+
+.updates-brand {
+  font-size: 3rem!important;
+}
+
+.latest-updates {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 1140px;
-  padding-left: 3rem;
+  margin: 0 auto 0 auto;
+  justify-content: space-around;
+}
+
+.updates-item img {
+  border-radius: 25px 25px 0 0;
+  width: 350px;
+}
+
+.updates-item-footer {
+  background-color: #151516!important;
+  border-radius: 0 0 25px 25px;
+  padding-left: 0.75rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.updates-item h2 {
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 0.75rem;
+}
+
+footer {
+  background-color: #151516!important;
 }
